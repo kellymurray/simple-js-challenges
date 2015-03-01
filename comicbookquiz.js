@@ -13,12 +13,12 @@ alert("Ready to test your comic book knowledge? Go!");
 
 var firstQuestion = prompt("Who owns Iron Man: DC or Marvel?");
 if ( firstQuestion.toUpperCase() === firstAnswer){
-  correctAnswers +- 1;
+  correctAnswers += 1;
 }
 
 var secondQuestion = prompt("Who is Clark Kent's alter-ego?");
 if (secondQuestion.toUpperCase() === secondAnswer){
-  correctAnswers +-1;
+  correctAnswers +=1;
 }
 
 var thirdQuestion = prompt("Who is from the island of Themyscira?");
