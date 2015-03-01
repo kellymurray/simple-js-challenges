@@ -1,4 +1,4 @@
-//Five answers
+// Write your five answers
 var correctAnswers = 0;
 
 var firstAnswer = "MARVEL";
@@ -9,7 +9,7 @@ var fifthAnswer = "BRUCE WAYNE";
 
 alert("Ready to test your comic book knowledge? Go!");
 
-// Ask at least five questions.
+// Ask five questions and keep track of player's score as questions are answered
 
 var firstQuestion = prompt("Who owns Iron Man: DC or Marvel?");
 if ( firstQuestion.toUpperCase() === firstAnswer){
