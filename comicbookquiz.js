@@ -36,10 +36,10 @@ if (fifthQuestion.toUpperCase() === fifthAnswer){
   correctAnswers += 1;
 }
 
-//Provide a final message after the quiz letting the user know the number of questions he or she got right.
+// Provide a final message after the quiz letting the user know the number of questions he or she got right
 document.write("<p>You got " + correctAnswers + " questions right! Excalibur!</p>");
 
-// Rank the player. If the player answered all five correctly, give that player the gold medal; 3-4 is a silver medal; 1-2 correct answers is a bronze medal and 0 correct is no medal at all.
+// Rank the player. If the player answered all five correctly, give that player the gold medal; 3-4 is a silver medal; 1-2 correct answers is a bronze medal and 0 correct is no medal at all
 
 if (correctAnswers === 5) {
   document.write("<p>Superior! You get the gold crown.</p>");
