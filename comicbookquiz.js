@@ -18,7 +18,7 @@ if ( firstQuestion.toUpperCase() === firstAnswer){
 
 var secondQuestion = prompt("Who is Clark Kent's alter-ego?");
 if (secondQuestion.toUpperCase() === secondAnswer){
-  correctAnswers +=1;
+  correctAnswers += 1;
 }
 
 var thirdQuestion = prompt("Who is from the island of Themyscira?");
@@ -50,6 +50,6 @@ if (correctAnswers === 5) {
   document.write("<p>Amazing! You get the silver crown.</p>");
 } else if (correctAnswers >=1) {
   document.write("<p>Incredible! You get the bronze crown.</p>");
-  } else {
+} else {
     document.write("<p>Do you even read comic books?</p>");
-  }
+}
