@@ -1,3 +1,5 @@
+//inspired by teamtreehouse.com
+
 //collect words from user
 var myNouns = prompt("Please give me a noun.");
 var myVerbs = prompt("Please give me a verb.");
